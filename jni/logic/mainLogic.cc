@@ -39,7 +39,7 @@ static bool ui_mach_Interaction_flag = false;
  */
 static S_ACTIVITY_TIMEER REGISTER_ACTIVITY_TIMER_TAB[] = {
 	//{0,  6000}, //定时器id=0, 时间间隔6秒
-//	{1,  25},
+	{1,  25},
 //	{1,  25},
 };
 
@@ -64,7 +64,7 @@ static void onUI_intent(const Intent *intentPtr) {
  * 当界面显示时触发
  */
 static void onUI_show() {
-	EASYUICONTEXT->openActivity("FrameWorkActivity");
+//	EASYUICONTEXT->openActivity("FrameWorkActivity");
 }
 
 /*
